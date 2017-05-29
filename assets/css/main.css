@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
+html {
+    font-family: 'Open Sans', 'Raleway', sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.navbar {
+    margin: 0;
+    height: 100px;
+}
+
+header {
+    position: relative;
+}
+
+header .container-fluid {
+    padding: 0;
+}
+
+.header-hero {
+    background: url("../img/taxi.jpg");
+    background-position-y: -1300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+@media (max-width: 768px) {
+    .header-hero {
+        background: url("../img/taxi.jpg");
+        background-position: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.hero-box {
+    position: absolute;
+    top: 20%;
+    font-family: 'Raleway', sans-serif;
+    background-color: #fcb425;
+    color: #fff;
+    padding: 40px;
+}
+
+.info-section {
+    background-color: #fcb425;
+}
