@@ -262,3 +262,8 @@ FOOTER
         height: 300px;
         padding: 20px 0;
     }
+    
+    .flex-end {
+        display: flex;
+        align-items: flex-end;
+    }
