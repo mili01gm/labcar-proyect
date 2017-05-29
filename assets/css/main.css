@@ -18,15 +18,20 @@ NAVBAR
     
     .navbar {
         margin: 0;
-        height: 120px;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
     
-    .navbar-header {
-        padding: 25px 0 0;
+    .navbar-brand {
+        padding-top: 0;
     }
     
-    .nav {
-        margin: 30px auto;
+    @media (max-width: 768px) {
+        .navbar-header {
+            margin-left: 50px;
+        }
     }
     
     .nav li {
@@ -37,6 +42,35 @@ NAVBAR
     .nav li a {
         color: #333;
         font-size: 1.25em;
+    }
+    
+    #call-menu {
+        background: none;
+        border: 0;
+        color: #555555;
+        margin-top: 10px;
+    }
+    
+    .xs-only {
+        margin: 30px auto;
+    }
+    
+    .xs-only ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .xs-only li {
+        margin: 50px 0;
+    }
+    
+    .xs-only li a {
+        color: #333;
+        font-size: 1.2em;
+    }
+    
+    .none {
+        display: none;
     }
     /*
 ==================
@@ -277,7 +311,7 @@ FOOTER
         padding: 20px 0;
     }
     
-    .flex {
-        display: flex;
-        justify-content: center;
+    .footer li a {
+        color: #fff;
+        font-size: 1.25em;
     }
