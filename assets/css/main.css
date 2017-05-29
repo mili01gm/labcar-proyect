@@ -1,14 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
+
+/*
+==================
+NAVBAR
+==================
+*/
+
 html {
     font-family: 'Open Sans', 'Raleway', sans-serif;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .navbar {
     margin: 0;
-    height: 100px;
+    height: 120px;
 }
+
+
+/*
+==================
+HEADER
+==================
+*/
 
 header {
     position: relative;
@@ -19,19 +33,22 @@ header .container-fluid {
 }
 
 .header-hero {
-    background: url("../img/taxi.jpg");
-    background-position-y: -1300px;
+    background-image: url("../img/taxi.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px;
+    background-position-y: -980px;
+    height: 600px;
+}
+
+@media (min-width: 1200px) {
+    .header-hero {
+        background-position-y: -1300px;
+    }
 }
 
 @media (max-width: 768px) {
     .header-hero {
-        background: url("../img/taxi.jpg");
-        background-position: 0;
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-position-y: 0;
     }
 }
 
@@ -44,6 +61,68 @@ header .container-fluid {
     padding: 40px;
 }
 
+
+/*
+==================
+INFORMATION
+==================
+*/
+
 .info-section {
     background-color: #fcb425;
+    color: #fff;
+    padding: 40px auto;
 }
+
+.info-section .info-box {
+    border: 1px solid #fff;
+    margin: 20px 0;
+    padding: 20px 40px 30px;
+}
+
+.info-section h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.info-section p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+}
+
+
+/*
+==================
+DRIVE
+==================
+*/
+
+.drive-section {
+    background-image: url("../img/conduce.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -150px;
+    height: 400px;
+}
+
+
+/*
+==================
+DRIVE
+==================
+*/
+
+.fare-section {
+    background-color: #fcb425;
+    color: #fff;
+    padding: 40px auto;
+    height: 500px;
+}
+
+
+/*
+==================
+FOOTER
+==================
+*/
