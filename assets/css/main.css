@@ -78,7 +78,8 @@ INFORMATION
     }
     
     .info-section h4,
-    .drive-section h4 {
+    .drive-section h4,
+    .fare-section h4 {
         font-family: 'Raleway', sans-serif;
         font-size: 2.5em;
         font-weight: 600;
@@ -144,8 +145,8 @@ FARE
     .fare-section {
         background-color: #fcb425;
         color: #fff;
-        padding: 40px auto;
-        height: 600px;
+        padding: 40px 0;
+        height: 700px;
     }
     
     .div-map {
@@ -160,23 +161,59 @@ FARE
     }
     
     .map-form {
-        margin-top: 20%;
+        margin-top: 25%;
+    }
+    
+    .map-form h4,
+    .map-form p {
+        text-align: left;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+    
+    .map-form p {
+        font-size: 1.5em;
+    }
+    
+    .map-form .form-group {
+        margin-bottom: 30px;
+    }
+    
+    .map-form i {
+        font-size: 1.5em;
+        margin: 10px;
     }
     
     .map-form input {
-        width: 85%;
+        width: 70%;
+        height: 45px;
         display: inline-block;
         margin-left: 10px;
+        padding: 15px 10px;
         background: 0;
         border: 1px solid #fff;
         color: #fff;
+        font-size: 1.5em;
     }
     
     .map-form input::placeholder {
         color: #fff;
+        font-size: 0.9em;
+    }
+    
+    .map-form button {
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.1em;
+        font-weight: bolder;
+        padding: 10px 20px;
     }
     /*
 ==================
 FOOTER
 ==================
 */
+    
+    .footer {
+        background-color: #333;
+        height: 300px;
+    }
