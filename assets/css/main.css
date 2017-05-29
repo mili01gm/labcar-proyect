@@ -1,7 +1,7 @@
     @import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
     /*
 ==================
-NAVBAR
+GENERAL
 ==================
 */
     
@@ -10,13 +10,20 @@ NAVBAR
         box-sizing: border-box;
         overflow: auto;
     }
+    /*
+==================
+NAVBAR
+==================
+*/
     
     .navbar {
         margin: 0;
         height: 120px;
     }
     
-    .navbar-brand {}
+    .nav li {
+        display: inline-block;
+    }
     /*
 ==================
 HEADER
