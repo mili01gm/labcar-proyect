@@ -1,136 +1,151 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
-
-/*
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
+    /*
 ==================
 NAVBAR
 ==================
 */
-
-html {
-    font-family: 'Open Sans', 'Raleway', sans-serif;
-    box-sizing: border-box;
-    overflow: auto;
-}
-
-.navbar {
-    margin: 0;
-    height: 120px;
-}
-
-
-/*
+    
+    html {
+        font-family: 'Open Sans', 'Raleway', sans-serif;
+        box-sizing: border-box;
+        overflow: auto;
+    }
+    
+    .navbar {
+        margin: 0;
+        height: 120px;
+    }
+    /*
 ==================
 HEADER
 ==================
 */
-
-header {
-    position: relative;
-}
-
-header .container-fluid {
-    padding: 0;
-}
-
-.header-hero {
-    background-image: url("../img/taxi.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: -980px;
-    height: 600px;
-}
-
-@media (min-width: 1200px) {
-    .header-hero {
-        background-position-y: -1300px;
+    
+    header {
+        position: relative;
     }
-}
-
-@media (max-width: 768px) {
-    .header-hero {
-        background-position-y: 0;
+    
+    header .container-fluid {
+        padding: 0;
     }
-}
-
-.hero-box {
-    position: absolute;
-    top: 20%;
-    font-family: 'Raleway', sans-serif;
-    background-color: #fcb425;
-    color: #fff;
-    padding: 40px;
-}
-
-
-/*
+    
+    .header-hero {
+        background-image: url("../img/taxi.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: -980px;
+        height: 600px;
+    }
+    
+    @media (min-width: 1200px) {
+        .header-hero {
+            background-position-y: -1300px;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .header-hero {
+            background-position-y: 0;
+        }
+    }
+    
+    .hero-box {
+        position: absolute;
+        top: 20%;
+        font-family: 'Raleway', sans-serif;
+        background-color: #fcb425;
+        color: #fff;
+        padding: 40px;
+    }
+    /*
 ==================
 INFORMATION
 ==================
 */
-
-.info-section {
-    background-color: #fcb425;
-    color: #fff;
-    padding: 40px auto;
-}
-
-.info-section .info-box {
-    border: 1px solid #fff;
-    margin: 20px 0;
-    padding: 40px 50px;
-}
-
-.info-section h4 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 2.5em;
-    font-weight: 600;
-}
-
-.info-section p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.5em;
-}
-
-.info-box-text {
-    margin-top: 3%;
-}
-
-.info-box-text h4,
-.info-box-text p {
-    margin-bottom: 20px;
-}
-
-
-/*
+    
+    .info-section {
+        background-color: #fcb425;
+        color: #fff;
+        padding: 40px auto;
+    }
+    
+    .info-section .info-box {
+        border: 1px solid #fff;
+        margin: 20px 0;
+        padding: 40px 50px;
+    }
+    
+    .info-section h4,
+    .drive-section h4 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 2.5em;
+        font-weight: 600;
+    }
+    
+    .info-section p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.5em;
+    }
+    
+    .info-box-text {
+        margin-top: 3%;
+    }
+    
+    .info-box-text h4,
+    .info-box-text p {
+        margin-bottom: 20px;
+    }
+    /*
 ==================
 DRIVE
 ==================
 */
-
-.drive-section {
-    background-image: url("../img/conduce.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: -150px;
-    height: 470px;
-}
-
-
-/*
+    
+    .drive-section {
+        background-image: url("../img/conduce.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: -170px;
+        height: 450px;
+        color: #fff;
+    }
+    
+    .drive-box {
+        background-color: rgba(0, 0, 0, 0.4);
+        padding: 100px 30px 20px;
+        height: 450px;
+    }
+    
+    .drive-box h4 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+    
+    .drive-box p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.3em;
+        margin-bottom: 20px;
+    }
+    
+    .drive-box button {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.3em;
+        padding: 10px 20px;
+        background-color: #fcb425;
+    }
+    /*
 ==================
 DRIVE
 ==================
 */
-
-.fare-section {
-    background-color: #fcb425;
-    color: #fff;
-    padding: 40px auto;
-    height: 500px;
-}
-
-
-/*
+    
+    .fare-section {
+        background-color: #fcb425;
+        color: #fff;
+        padding: 40px auto;
+        height: 500px;
+    }
+    /*
 ==================
 FOOTER
 ==================
