@@ -134,8 +134,20 @@ DRIVE
         color: #fff;
     }
     
+    @media (max-width: 945px) {
+        .drive-section {
+            background-position-y: -40px;
+        }
+    }
+    
+    @media (max-width: 750px) {
+        .drive-section {
+            background-position-y: 0;
+        }
+    }
+    
     .drive-box {
-        background-color: rgba(0, 0, 0, 0.4);
+        background-color: rgba(0, 0, 0, 0.5);
         padding: 100px 30px 20px;
         height: 450px;
     }
@@ -167,14 +179,14 @@ FARE
     .fare-section {
         background-color: #fcb425;
         color: #fff;
-        padding: 40px 0;
-        height: 700px;
+        padding: 25px 0;
+        height: 600px;
     }
     
     .div-map {
         padding: 10px;
         border: 1px solid #fff;
-        margin: 45px auto;
+        margin: 10px auto;
     }
     
     #map {
@@ -183,7 +195,8 @@ FARE
     }
     
     .map-form {
-        margin-top: 25%;
+        margin-top: 30px;
+        padding-top: 30px;
     }
     
     .map-form h4,
