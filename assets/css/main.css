@@ -145,12 +145,35 @@ FARE
         background-color: #fcb425;
         color: #fff;
         padding: 40px auto;
-        height: 500px;
+        height: 600px;
     }
     
-    div#map {
-        height: 400px;
+    .div-map {
+        padding: 10px;
+        border: 1px solid #fff;
+        margin: 45px auto;
+    }
+    
+    #map {
+        height: 500px;
         width: 100%;
+    }
+    
+    .map-form {
+        margin-top: 20%;
+    }
+    
+    .map-form input {
+        width: 85%;
+        display: inline-block;
+        margin-left: 10px;
+        background: 0;
+        border: 1px solid #fff;
+        color: #fff;
+    }
+    
+    .map-form input::placeholder {
+        color: #fff;
     }
     /*
 ==================
